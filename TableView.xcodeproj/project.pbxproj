@@ -15,6 +15,8 @@
 		EB740E5F1F612DE500D945EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB740E5D1F612DE500D945EE /* LaunchScreen.storyboard */; };
 		EB740E6A1F612DE500D945EE /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB740E691F612DE500D945EE /* TableViewTests.swift */; };
 		EB740E751F612DE500D945EE /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB740E741F612DE500D945EE /* TableViewUITests.swift */; };
+		EB740E831F61422300D945EE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB740E821F61422300D945EE /* TableViewCell.swift */; };
+		EB740E851F61586F00D945EE /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB740E841F61586F00D945EE /* SecondTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EB740E701F612DE500D945EE /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB740E741F612DE500D945EE /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		EB740E761F612DE500D945EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB740E821F61422300D945EE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EB740E841F61586F00D945EE /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				EB740E511F612DE500D945EE /* AppDelegate.swift */,
 				EB740E531F612DE500D945EE /* ViewController.swift */,
+				EB740E821F61422300D945EE /* TableViewCell.swift */,
+				EB740E841F61586F00D945EE /* SecondTableViewCell.swift */,
 				EB740E551F612DE500D945EE /* Main.storyboard */,
 				EB740E5B1F612DE500D945EE /* Assets.xcassets */,
 				EB740E5D1F612DE500D945EE /* LaunchScreen.storyboard */,
@@ -263,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB740E541F612DE500D945EE /* ViewController.swift in Sources */,
+				EB740E851F61586F00D945EE /* SecondTableViewCell.swift in Sources */,
+				EB740E831F61422300D945EE /* TableViewCell.swift in Sources */,
 				EB740E5A1F612DE500D945EE /* TableView.xcdatamodeld in Sources */,
 				EB740E521F612DE500D945EE /* AppDelegate.swift in Sources */,
 			);
